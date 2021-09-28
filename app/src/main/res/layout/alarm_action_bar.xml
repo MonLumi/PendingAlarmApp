@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:padding="10dp">
+
+    <ImageView
+            android:id="@+id/iv_hamburger"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_hamburger_menu"
+            app:tint="@color/white"
+            android:layout_alignParentLeft="true"
+            />
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="@string/alarm_screen"
+            android:layout_alignTop="@id/iv_hamburger"
+            android:layout_alignBottom="@id/iv_hamburger"
+            android:layout_toRightOf="@id/iv_hamburger"
+            android:layout_toLeftOf="@id/iv_add_alarm" />
+
+    <ImageView
+            android:id="@+id/iv_add_alarm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_add_alarm"
+            app:tint="@color/white"
+
+            android:layout_alignParentRight="true" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarm"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wake up and run 1000m, buy food for pet"
+            android:textAlignment="center"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        <Button android:id="@+id/btn_done"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="DONE"
+                android:layout_weight="1"
+                android:backgroundTint="@color/green"/>
+
+        <Button android:id="@+id/btn_remove"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="REMOVE"
+                android:layout_weight="1"
+                android:backgroundTint="@color/red"/>
+
+    </LinearLayout>
+</LinearLayout>

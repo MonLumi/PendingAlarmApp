@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".FragmentCall"
+        android:id="@+id/fragment_view"
+        android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="150dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_phone"
+                    android:background="@color/dark_orange"/>
+
+            <EditText
+                    android:id="@+id/et_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/dark_orange"
+                    android:textColor="@color/white"
+                    android:hint="@string/call_to"
+                    android:textColorHint="@color/white"
+                    android:paddingLeft="15dp"
+                    android:inputType="phone"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <include layout="@layout/pending_bar"/>
+
+</LinearLayout>

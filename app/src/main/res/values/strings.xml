@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PRM391x_Project_3_FX10105</string>
+    <string name="sample_title">Pending App</string>
+
+    <string name="call_screen">Pending Call</string>
+    <string name="sms_screen">Pending SMS</string>
+    <string name="alarm_screen">Pending Alarm</string>
+
+    <string name="drawer_title">I have a plan</string>
+    <string name="make_a_pending_call">Make a pending CALL</string>
+    <string name="make_a_pending_sms">Make a pending SMS</string>
+    <string name="make_a_pending_alarm">Make a pending ALARM</string>
+    <string name="call_to">Call to</string>
+    <string name="pending_time">Pending Time</string>
+    <string name="submit">SETUP</string>
+    <string name="message">Message</string>
+    <string name="wakeup_me">Wakeup Me!</string>
+    <string name="send_to">Send to</string>
+    <string name="sample_time">23/09/2021 20:21</string>
+</resources>
